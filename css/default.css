@@ -28,3 +28,17 @@ padding: 10px;
 background-color: blue;
 text-align: center;
 }
+
+
+@media screen and (min-width:641px){
+  aside{
+    width: calc(min-width:641px);
+    float:left;
+  }
+  #side:after{
+    
+    content:"";
+    display:block;
+    clear:both;
+  }
+}
